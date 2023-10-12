@@ -5,6 +5,8 @@ from selene.support.conditions import be
 from selene.support.shared import browser
 from selene.support.shared.jquery_style import s
 
+def test_no_labels():
+    pass
 
 def test_dynamic_labels():
     allure.dynamic.tag("web")
